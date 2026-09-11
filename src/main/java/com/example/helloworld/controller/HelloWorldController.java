@@ -11,6 +11,6 @@ public class HelloWorldController {
     private String data;
     @GetMapping("/hello")
     public String sendGreetings() {
-        return "Hello everybody!!" +data;
+        return "Hello everybody !!" +data;
     }
 }
